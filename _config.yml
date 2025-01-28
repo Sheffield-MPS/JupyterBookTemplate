@@ -1,10 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: PHY1001 Waves and Oscillations
-author: James Mullaney
-copyright: "2023"
-#logo: logo.png
+title: MAS/PHY/CHM 101 Course Title
+author: Your name here
+copyright: "2025"
+logo: logouni.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
