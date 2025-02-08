@@ -8,7 +8,7 @@ To edit this landing page, go to [https://github.com/Sheffield-MPS/JupyterBookTe
 1. If you're familiar with git and github, you can clone the repository and make edits, commit, then push as you usually would for a git repo; or   
 2. Click on `welcome.md` in the left-hand menu, then click on the little pen icon ![](./penicon.png) which is toward the upper right of the page. Doing so will start the editor mode on github. Once you've made the edits you need, click on the green "Commit Changes". You can add a commit message and description of your changes in the pop-up box, if you want. Ensure "Commit directly to the main branch" is selected, then click on "Commit changes".
 
-As well as changing the module code and title, it's a good idea to include general module information on this page. I've added some sections below as guidance, but feel free to remove or add to them as you see fit.
+As well as changing the module code and title, it's a good idea to edit this page to also include general module information. I've added some sections below as guidance, but feel free to remove or add to them as you see fit.
 
 You should also edit the "title" and "author" fields in the `_config.yml` file accordingly (by following either of the above two methods). 
 
