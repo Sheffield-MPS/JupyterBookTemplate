@@ -4,7 +4,7 @@ This is the landing page of your module; the first page that the students will s
 
 At the very least, you will need to edit this page to display the correct module code and title above, and to replace this text with something more appropriate for your module.
 
-A copy of everything on this page is kept at [https://github.com/Sheffield-MPS/JupyterBookTemplate](https://github.com/Sheffield-MPS/JupyterBookTemplate). Make a note of that page so you can still refer to these instructions as you start to edit this page.
+A copy of everything on this page is kept at [https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html](https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html). Make a note of that page so you can still refer to these instructions as you start to edit this page.
 
 To edit this landing page, go to your module's github repository which is at [https://github.com/Sheffield-MPS/PHYXXX](https://github.com/Sheffield-MPS/PHYXXX). From there, you have two choices:
 1. If you're familiar with git and github, you can clone the repository and make edits, commit, then push as you usually would for a git repo; or   
