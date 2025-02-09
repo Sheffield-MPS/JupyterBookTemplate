@@ -4,7 +4,7 @@ This is the landing page of your module; the first page that the students will s
 
 At the very least, you will need to edit this page to display the correct module code and title above, and to replace this text with something more appropriate for your module.
 
-To edit this landing page, go to [https://github.com/Sheffield-MPS/JupyterBookTemplate](https://github.com/Sheffield-MPS/JupyterBookTemplate). From there, you have two choices:
+To edit this landing page, go to your module's github repository which is at [https://github.com/Sheffield-MPS/JupyterBookTemplate](https://github.com/Sheffield-MPS/JupyterBookTemplate). From there, you have two choices:
 1. If you're familiar with git and github, you can clone the repository and make edits, commit, then push as you usually would for a git repo; or   
 2. Click on `welcome.md` in the left-hand menu, then click on the little pen icon ![](./penicon.png) which is toward the upper right of the page. Doing so will start the editor mode on github. Once you've made the edits you need, click on the green "Commit Changes". You can add a commit message and description of your changes in the pop-up box, if you want. Ensure "Commit directly to the main branch" is selected, then click on "Commit changes".
 
@@ -17,6 +17,8 @@ Finally, you will definitely want to go through your notes to check that they ha
 These are symbols that the converter didn't recognise (often because they're defined using `\newcommand` in LaTeX).
 * **Images that could not be found.**\
 This is usually because the filename used in the markdown no longer matches the name of the file in the `Images` directory. Pay particular attention to upper/lower case letters.
+* **PDF Images**\
+It seems JupyterBooks can't handle PDF images. Convert any PDF images to PNG or JPEG then upload them to the Images folder. To do this via your web browser, go to your module's github repository, click on the `Images` folder, click on the little drop-down triangle next to "Add File", then follow the instructs and commit. You will also need to change the name of the filename (i.e., from `./Images/filename.pdf` to `./Images/filename.jpg` or `./Images/filename.png` in your markdown file.). If you're familiar with git, you can of course, `git clone` the respository and make your changes that way.  
 * **Failed `\begin{align}`s.**\
 These should be replaced with `\begin{equation}`s.
 * **Incorrectly titled lectures in the left-hand menu.**\
