@@ -1,8 +1,8 @@
-# Welcome to CHM/MAS/PHYXXX: Title of Module
+# Welcome to PHYXXX: Title of Module
 
 This is the landing page of your module; the first page that the students will see when they click through to your notes.
 
-At the very least, you will need to edit this page to display the correct module code and title above, and to replace this text with something more appropriate for your module.
+At the very least, you will need to edit this page to display the correct title - and possibly the correct module code - above, and to replace this text with something more appropriate for your module.
 
 A copy of everything on this page is kept at [https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html](https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html). Make a note of that page so you can still refer to these instructions as you start to edit this page.
 
