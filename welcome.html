@@ -1,0 +1,538 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome to PHYXXX: Title of Module &#8212; MAS/PHY/CHM 101 Course Title</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'welcome';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logouni.png" class="logo__image only-light" alt="MAS/PHY/CHM 101 Course Title - Home"/>
+    <img src="_static/logouni.png" class="logo__image only-dark pst-js-only" alt="MAS/PHY/CHM 101 Course Title - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Welcome to PHYXXX: Title of Module
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fwelcome.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/welcome.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Welcome to PHYXXX: Title of Module</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact-time">Contact time</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessments">Assessments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#office-hours">Office Hours</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome-to-phyxxx-title-of-module">
+<h1>Welcome to PHYXXX: Title of Module<a class="headerlink" href="#welcome-to-phyxxx-title-of-module" title="Link to this heading">#</a></h1>
+<p>This is the landing page of your module; the first page that the students will see when they click through to your notes.</p>
+<p>At the very least, you will need to edit this page to display the correct title - and possibly the correct module code - above, and to replace this text with something more appropriate for your module.</p>
+<p>A copy of everything on this page is kept at <a class="reference external" href="https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html">https://sheffield-mps.github.io/JupyterBookTemplate/welcome.html</a>. Make a note of that page so you can still refer to these instructions as you start to edit this page.</p>
+<p>To edit this landing page, go to your module’s github repository which is at <a class="github reference external" href="https://github.com/Sheffield-MPS/PHYXXX">Sheffield-MPS/PHYXXX</a>. From there, you have two choices:</p>
+<ol class="arabic simple">
+<li><p>If you’re familiar with git and github, you can clone the repository and make edits, commit, then push as you usually would for a git repo; or</p></li>
+<li><p>Click on <code class="docutils literal notranslate"><span class="pre">welcome.md</span></code> in the left-hand menu, then click on the little pen icon <img alt="" src="_images/penicon.png" /> which is toward the upper right of the page. Doing so will start the editor mode on github. Once you’ve made the edits you need, click on the green “Commit Changes”. You can add a commit message and description of your changes in the pop-up box, if you want. Ensure “Commit directly to the main branch” is selected, then click on “Commit changes”.</p></li>
+</ol>
+<p>As well as changing the module code and title, it’s a good idea to edit this page to also include general module information. I’ve added some sections below as guidance, but feel free to remove or add to them as you see fit.</p>
+<p>You should also edit the “title” and “author” fields in the <code class="docutils literal notranslate"><span class="pre">_config.yml</span></code> file accordingly (by following either of the above two methods).</p>
+<p>Finally, you will definitely want to go through your notes to check that they have been rendered correctly. Common things to look out for are:</p>
+<ul class="simple">
+<li><p><strong>Any symbols that are highlighted in bright red.</strong><br />
+These are symbols that the converter didn’t recognise (often because they’re defined using <code class="docutils literal notranslate"><span class="pre">\newcommand</span></code> in LaTeX).</p></li>
+<li><p><strong>Images that could not be found.</strong><br />
+This is usually because the filename used in the markdown no longer matches the name of the file in the <code class="docutils literal notranslate"><span class="pre">Images</span></code> directory. Pay particular attention to upper/lower case letters.</p></li>
+<li><p><strong>PDF Images</strong><br />
+It seems JupyterBooks can’t handle PDF images. Convert any PDF images to PNG or JPEG then upload them to the Images folder. To do this via your web browser, go to your module’s github repository, click on the <code class="docutils literal notranslate"><span class="pre">Images</span></code> folder, click on the little drop-down triangle next to “Add File”, then follow the instructs and commit. You will also need to change the name of the filename (i.e., from <code class="docutils literal notranslate"><span class="pre">./Images/filename.pdf</span></code> to <code class="docutils literal notranslate"><span class="pre">./Images/filename.jpg</span></code> or <code class="docutils literal notranslate"><span class="pre">./Images/filename.png</span></code> in your markdown file.). If you’re familiar with git, you can of course, <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> the respository and make your changes that way.</p></li>
+<li><p><strong>Failed <code class="docutils literal notranslate"><span class="pre">\begin{align}</span></code>s.</strong><br />
+These should be replaced with <code class="docutils literal notranslate"><span class="pre">\begin{equation}</span></code>s.</p></li>
+<li><p><strong>Incorrectly titled lectures in the left-hand menu.</strong><br />
+If you have multiple lecture markdown files (possibly converted from multiple LaTeX files), then these should appear as “Lecture 1”, “Lecture 2” etc. in the left-hand menu. What can happen if your lecture notes start with a section (indicated with two hashes) instead of a title (indicated with one hash), is that the “Lecture 1”s etc get replaced by the section name. If that’s happening, either remove one hash from the first section, or just add an appropriate title at the start. If you want anything other than “Lecture 1” etc to appear in the left hand menu, then edit the “title” fields in the <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> file.</p></li>
+</ul>
+<p>And now, those sections I promised…</p>
+<section id="contact-time">
+<h2>Contact time<a class="headerlink" href="#contact-time" title="Link to this heading">#</a></h2>
+<p>This module consists of X 50-minute lectures/X hours of workshops/X problems classes. Barring any unforeseen events, lectures will take place in-person at:</p>
+<ul class="simple">
+<li><p>X am/pm on Yday in Lecture Theatre Z; and</p></li>
+<li><p>x am/pm on yday in Lecture Theatre z.</p></li>
+</ul>
+<p>Should anything happen that prevents an in-person lecture, then live lectures will proceed online via Blackboard Collaborate Ultra. Full instructions on how to access online lectures will be provided should the need arise. All lecture notes and slides have already been made available on Blackboard, and recordings will be made available after each lecture (please allow a few hours for the recordings to be processed). Bear in mind, however, that the lecture recordings often fail to capture what is written on the blackboard, so please avoid non-attendance assuming that you can watch the recordings later and still get the same experience.</p>
+</section>
+<section id="assessments">
+<h2>Assessments<a class="headerlink" href="#assessments" title="Link to this heading">#</a></h2>
+<p>There are X assessments for this module:</p>
+<ul class="simple">
+<li><p><strong>Homework worth X percent of the final grade.</strong> This will be made available during week X and is due in week X. Please see the Blackboard page of the module for more details, including precise submission deadlines; and</p></li>
+<li><p><strong>A presentation worth X percent of the final grad.</strong> Please see the Blackboard page of the module for mode details.</p></li>
+<li><p><strong>A final X-hour exam</strong> Please see the Blackboard page of the module for mode details.</p></li>
+</ul>
+</section>
+<section id="office-hours">
+<h2>Office Hours<a class="headerlink" href="#office-hours" title="Link to this heading">#</a></h2>
+<p>My office is X in the Dainton/Hicks building. My office hours are:</p>
+<ul class="simple">
+<li><p>X am/pm on Yday; and</p></li>
+<li><p>x am/pm on yday.
+While you can arrive unannounced during my office hours, it’s best to email beforehand to confirm. If you wish to see me outside my office hours, you’ll need to email me to arrange a suitable time. If you come to my office outside my office hours, please don’t be offended if I ask you to either return during my office hours, or to arrange an appointment.</p></li>
+</ul>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contact-time">Contact time</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assessments">Assessments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#office-hours">Office Hours</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Your name here
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
